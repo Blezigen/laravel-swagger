@@ -13,6 +13,10 @@
     {
       "name": "Roman Dubrovin",
       "email": "rdubrovin@ronasit.com"
+    },
+    {
+      "name": "Blezigen",
+      "email": "khairullin.it@gmail.com"
     }
   ],
   "require": {
@@ -22,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RonasIT\\Support\\AutoDoc\\": "src/"
+      "Support\\AutoDoc\\": "src/"
     },
     "exclude-from-classmap": [
       "src/Tests/"

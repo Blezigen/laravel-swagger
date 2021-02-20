@@ -1,6 +1,6 @@
 <?php
 
-namespace RonasIT\Support\AutoDoc\Services;
+namespace Support\AutoDoc\Services;
 
 use Illuminate\Container\Container;
 use Illuminate\Http\Request;
@@ -10,11 +10,11 @@ use Minime\Annotations\Interfaces\AnnotationsBagInterface;
 use Minime\Annotations\Reader as AnnotationReader;
 use Minime\Annotations\Parser;
 use Minime\Annotations\Cache\ArrayCache;
-use RonasIT\Support\AutoDoc\Interfaces\DataCollectorInterface;
-use RonasIT\Support\AutoDoc\Traits\GetDependenciesTrait;
-use RonasIT\Support\AutoDoc\Exceptions\WrongSecurityConfigException;
-use RonasIT\Support\AutoDoc\Exceptions\DataCollectorClassNotFoundException;
-use RonasIT\Support\AutoDoc\DataCollectors\LocalDataCollector;
+use Support\AutoDoc\Interfaces\DataCollectorInterface;
+use Support\AutoDoc\Traits\GetDependenciesTrait;
+use Support\AutoDoc\Exceptions\WrongSecurityConfigException;
+use Support\AutoDoc\Exceptions\DataCollectorClassNotFoundException;
+use Support\AutoDoc\DataCollectors\LocalDataCollector;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Http\Testing\File;
 

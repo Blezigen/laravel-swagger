@@ -1,6 +1,6 @@
 <?php
 
-namespace RonasIT\Support\AutoDoc;
+namespace Support\AutoDoc;
 
 use Illuminate\Support\ServiceProvider;
 
