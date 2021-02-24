@@ -20,9 +20,15 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=7.4.0",
     "laravel/framework": ">=5.3.0",
-    "minime/annotations": "dev-master"
+    "minime/annotations": "dev-master",
+    "spatie/data-transfer-object": "^2.8"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
   },
   "autoload": {
     "psr-4": {

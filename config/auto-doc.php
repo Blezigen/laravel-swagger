@@ -42,6 +42,7 @@ return [
             'url' => ''
         ]
     ],
+
     'swagger' => [
         'version' => '2.0'
     ],
