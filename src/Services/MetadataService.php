@@ -24,6 +24,7 @@ class MetadataService
     public function getClassMetadata($class)
     {
         $annotations = $this->annotationReader->getClassAnnotations($class);
+        return $annotations;
     }
 
     public function getMethodMetadata($class, $method)

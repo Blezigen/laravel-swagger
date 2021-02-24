@@ -4,7 +4,14 @@
 namespace Tests\Partials;
 
 
-class TestController
+use Illuminate\Routing\Controller;
+
+/**
+ * Class TestController
+ * @r204 Successful
+ * @package Tests\Partials
+ */
+class TestController extends Controller
 {
 
 }
